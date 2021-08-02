@@ -7,3 +7,6 @@
 .App-editor, .App-output {
   flex: 1;
 }
+.App-editor {
+  padding-left: 65px;
+}
