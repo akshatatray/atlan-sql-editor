@@ -5,13 +5,12 @@
     flex-direction: column;
 }
 .Editor-Body {
-    flex: 2;
+    flex: 3;
     border-bottom: 1px solid #EEEEEE;
 }
 .Editor-IDE {
-    flex: 8;
     border-bottom: 1px solid #EEEEEE;
 }
 .Editor-Actions {
-    flex: 1;
+    flex: 2;
 }

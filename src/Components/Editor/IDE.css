@@ -1,0 +1,16 @@
+.CodeMirror {
+    border-radius: 0px !important;
+}
+.CodeMirror-scroll {
+    min-height: 500px;
+}
+.CodeMirror-linenumbers {
+    width: 40px;
+    background-color: #F2F2F2;
+}
+.CodeMirror-linenumber {
+    text-align: center !important;
+}
+.CodeMirror-gutters {
+    background-color: transparent;
+}
