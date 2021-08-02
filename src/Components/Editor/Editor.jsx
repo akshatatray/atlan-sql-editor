@@ -17,8 +17,8 @@ const Editor = ({ getQueryOutput }) => {
                 </h4>
                 <p className="Editor-Body-Para">
                     Copy and Run following mock queries {<br/>}
-                    1) <span className="blue">SELECT</span> <span className="red">*</span> <span className="blue">FROM</span> Atlan; {<br/>}
-                    2) <span className="blue">SELECT</span> <span className="red">*</span> <span className="blue">FROM</span> Atlan <span className="blue">WHERE</span> city<span className="red">=</span>'London'; {<br/>}
+                    <span className="blue">SELECT</span> <span className="red">*</span> <span className="blue">FROM</span> Atlan; {<br/>}
+                    <span className="blue">SELECT</span> <span className="red">*</span> <span className="blue">FROM</span> Atlan <span className="blue">WHERE</span> city<span className="red">=</span>'London'; {<br/>}
                 </p>
             </div>
             <div className="Editor-IDE">
