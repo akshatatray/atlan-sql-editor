@@ -17,6 +17,10 @@
     color: #707070;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 table td, table th {
     border: 1px solid #ddd;
     text-transform: capitalize;
@@ -28,7 +32,7 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-    background-color: #EEEEFF;
+    background-color: #eeeeff;
 }
 
 table th {

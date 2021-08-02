@@ -5,7 +5,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import 'codemirror/theme/neat.css';
 
 const IDE = ({ onQueryRun }) => {
-    const preCode = '/* Write your SQL Query Statement below */\n';
+    const preCode = '/* Write your SQL Query Statement below.\nDelete This Comment and then Copy the Mock Query! */\n';
     const [code, setCode] = useState(preCode);
 
     return (

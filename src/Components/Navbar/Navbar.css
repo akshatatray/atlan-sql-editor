@@ -40,6 +40,7 @@
     transition: color 0.2s ease-in-out;
 }
 .nav-link {
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #555459;
 }

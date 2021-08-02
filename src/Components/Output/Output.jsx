@@ -54,44 +54,12 @@ const Output = ({ displayQuery }) => {
 
         default : return (
             <div className="Output" style={{ backgroundColor: "#E1E1E1" }}>
-                <div className="Output-doc">
+                <div className="Output-doc" style={{color: "#d22020"}}>
                     Please Use the Mock Queries!
                 </div>
             </div>
         );
     }
-    // return (
-    //     <div 
-    //         className="Output"
-    //         style={
-    //             displayQuery !== "" ? 
-    //                 { backgroundColor: "#FFFFFF"} :
-    //                 { backgroundColor: "#F1F1F1" }
-    //         }
-    //     >
-    //         {/* {
-    //             displayQuery === "" ? (
-    //                 <div className="Output-doc">
-    //                     <img src={Doc} alt="doc"/>
-    //                     <p>The results of your query will appear here.</p>
-    //                 </div>
-    //             ) : (
-    //                 <div style={{
-    //                     height: "calc(100% - 30px)",
-    //                     width: "calc(100% - 30px)",
-    //                     overflow: "scroll",
-    //                     overflowY: "scroll",
-    //                     padding: "15px"
-    //                 }}>
-    //                     <CsvToHtmlTable
-    //                         data={customerAll}
-    //                         csvDelimiter=","
-    //                     />
-    //                 </div>
-    //             )
-    //         } */}
-    //     </div>
-    // )
 }
 
 export default Output;

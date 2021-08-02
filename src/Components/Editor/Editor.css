@@ -35,4 +35,13 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
+    line-height: 1.35;
+}
+.blue {
+    font-weight: bold;
+    color: #2026D2;
+}
+.red {
+    font-weight: bold;
+    color: #d22020;
 }
