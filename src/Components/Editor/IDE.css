@@ -3,14 +3,17 @@
 }
 .CodeMirror-scroll {
     min-height: 500px;
+    max-height: 500px;
 }
 .CodeMirror-linenumbers {
     width: 40px;
-    background-color: #F2F2F2;
+    background-color: white;
 }
 .CodeMirror-linenumber {
     text-align: center !important;
+    color: black !important;
 }
 .CodeMirror-gutters {
     background-color: transparent;
+    border: none !important;
 }

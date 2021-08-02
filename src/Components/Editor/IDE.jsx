@@ -5,7 +5,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import 'codemirror/theme/neat.css';
 
 const IDE = () => {
-    const preCode = '/* \n    ENTER QUERIES TO GET RESULTS \n*/';
+    const preCode = '/* Write your SQL Query Statement below */\n';
     return (
         <div className="IDE">
             <CodeMirror 
