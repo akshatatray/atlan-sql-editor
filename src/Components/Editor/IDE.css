@@ -2,8 +2,8 @@
     border-radius: 0px !important;
 }
 .CodeMirror-scroll {
-    min-height: 500px;
-    max-height: 500px;
+    min-height: 450px;
+    max-height: 450px;
 }
 .CodeMirror-linenumbers {
     width: 40px;

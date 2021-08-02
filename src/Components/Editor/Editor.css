@@ -5,12 +5,37 @@
     flex-direction: column;
 }
 .Editor-Body {
-    flex: 3;
+    position: relative;
+    height: 140px;
     border-bottom: 1px solid #EEEEEE;
+}
+.Editor-Body-Heading {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.Editor-Body-Para {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 645px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 .Editor-IDE {
     border-bottom: 1px solid #EEEEEE;
+    height: 450px;
 }
 .Editor-Actions {
-    flex: 2;
 }
