@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 
+import { NavLink } from 'react-router-dom';
 import Logo from "./logo.svg";
 
 const Navbar = () => {
@@ -12,16 +13,13 @@ const Navbar = () => {
                 </div>
                 <ul className="nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Home</a>
+                        <NavLink activeClassName="active-nav-link" className="nav-link" to="/" exact>Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">New Editor</a>
+                        <NavLink activeClassName="active-nav-link" className="nav-link" to="/sql" exact>New Editor</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Guide</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link nav-link-logout" href="#">Log Out</a>
+                        <a className="nav-link nav-link-logout" href="https://github.com/akshatatray/atlan-sql-editor" target="_blank">GitHub</a>
                     </li>
                 </ul>
             </nav>

@@ -1,30 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 
-import Navbar from './Components/Navbar/Navbar';
-import Sidebar from './Components/Sidebar/Sidebar';
-import Editor from './Components/Editor/Editor';
-import Output from './Components/Output/Output';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import SqlEditor from './Components/SqlEditor/SqlEditor';
 
 const App = () => {
-  const [currQuery, setCurrQuery] = useState("");
-
-  const processQuery = (query) => {
-    console.log(query);
-    setCurrQuery(query);
-  }
-
   return (
-    <div className="App">
-      <Navbar/>
-      <div className="App-editor">
-        <Sidebar/>
-        <Editor getQueryOutput={processQuery}/>
-      </div>
-      <div className="App-output">
-        <Output displayQuery={currQuery}/>
-      </div>
-    </div>
+    <Router>
+      <Route path="/" exact component={Home}/>
+      <Route path="/sql" exact component={SqlEditor}/>
+    </Router>
   );
 }
 

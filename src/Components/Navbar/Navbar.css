@@ -47,6 +47,9 @@
 .nav-link:hover {
     color: #2026D2;
 }
+.active-nav-link {
+    color: #2026D2;
+}
 .nav-link-logout:hover {
     color: #d22020;
 }

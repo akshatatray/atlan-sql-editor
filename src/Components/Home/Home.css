@@ -1,0 +1,25 @@
+
+
+.Home {
+    padding-top: 75px;
+    height: calc(100vh - 75px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./cover.svg);
+}
+.Home-Heading-Container {
+    width: 800px;
+    height: 200px;
+    margin-bottom: 200px;
+}
+.Home-Heading {
+    font-size: 54px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.Home-Description {
+    font-size: 18px;
+    text-align: center;
+}

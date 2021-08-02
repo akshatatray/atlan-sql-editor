@@ -1,0 +1,13 @@
+.SqlEditor {
+  height: calc(100vh - 75px);
+  width: 100%;
+  padding-top: 75px;
+  display: flex;
+}
+.SqlEditor-editor, .SqlEditor-output {
+  flex: 1;
+  width: 50%;
+}
+.SqlEditor-editor {
+  padding-left: 65px;
+}
