@@ -4,7 +4,7 @@ import './IDE.css';
 import CodeMirror from '@uiw/react-codemirror';
 import 'codemirror/theme/neat.css';
 
-const IDE = ({ getCode }) => {
+const IDE = ({ onQueryRun }) => {
     const preCode = '/* Write your SQL Query Statement below */\n';
     const [code, setCode] = useState(preCode);
 
@@ -19,14 +19,13 @@ const IDE = ({ getCode }) => {
                 }}
                 onChange={(e) => {
                     setCode(e.getValue());
-                    console.log(code);
                 }}
             />
             <div className="Editor-Actions">
                 <button className="Editor-Actions-Btn Share-Btn">SHARE</button>
                 <button 
                     className="Editor-Actions-Btn Run-Btn"
-                    // onClick={getCodeCallBack}
+                    onClick={() => onQueryRun(code)}
                 >
                     RUN
                 </button>

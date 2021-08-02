@@ -3,7 +3,12 @@ import "./Editor.css";
 
 import IDE from './IDE';
 
-const Editor = () => {
+const Editor = ({ getQueryOutput }) => {
+
+    const runQuery = (query) => {
+        getQueryOutput(query);
+    }
+
     return (
         <div className="Editor">
             <div className="Editor-Body">
@@ -15,7 +20,7 @@ const Editor = () => {
                 </p>
             </div>
             <div className="Editor-IDE">
-                <IDE />
+                <IDE onQueryRun={runQuery}/>
             </div>
         </div>
     )
