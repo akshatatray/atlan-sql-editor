@@ -6,8 +6,11 @@
 }
 .Editor-Body {
     position: relative;
-    height: calc(30% - 80px);
+    flex: 1;
     border-bottom: 1px solid #EEEEEE;
+}
+.Editor-IDE {
+    flex: 4;
 }
 .Editor-Body-Heading {
     position: absolute;
@@ -32,29 +35,4 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-}
-.Editor-IDE {
-    border-bottom: 1px solid #EEEEEE;
-    height: 70%
-}
-.Editor-Actions {
-    display: flex;
-    height: 80px;
-    justify-content: flex-end;
-    align-items: center;
-}
-.Editor-Actions-Btn {
-    font-weight: 600;
-    height: 2.75rem !important;
-    text-shadow: none !important;
-    color: #ffffff !important;
-    background-color:  #2026d2;
-    border: none !important;
-    border-radius: .35rem;
-    padding: 0.625rem 1.25rem !important;
-    margin: 0 20px 0 0;
-    cursor: pointer;
-}
-.Share-Btn {
-    background-color: #6064EC;
 }

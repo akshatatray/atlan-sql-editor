@@ -11,15 +11,11 @@ const Editor = () => {
                     Customers’ Dataset
                 </h4>
                 <p className="Editor-Body-Para">
-                    Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go! Dataset of all the customers. Run query to filter/sort the dataset on the go!
+                    This is the dataset that you will be working with.
                 </p>
             </div>
             <div className="Editor-IDE">
                 <IDE />
-            </div>
-            <div className="Editor-Actions">
-                <button className="Editor-Actions-Btn Share-Btn">SHARE</button>
-                <button className="Editor-Actions-Btn Run-Btn">RUN</button>
             </div>
         </div>
     )
