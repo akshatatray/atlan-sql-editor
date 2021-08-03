@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from "./logo.svg";
 
 const Navbar = () => {
@@ -9,7 +9,9 @@ const Navbar = () => {
         <div className="Navbar">
             <nav className="Navbar-nav">
                 <div className="Navbar-brand">
-                    <img src={Logo} alt="logo" className="Navbar-logo" />
+                    <Link to="/">
+                        <img src={Logo} alt="logo" className="Navbar-logo" />
+                    </Link>
                 </div>
                 <ul className="nav">
                     <li className="nav-item">
