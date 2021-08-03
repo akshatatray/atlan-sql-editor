@@ -12,7 +12,6 @@
 .Navbar-nav {
     display: flex;
     justify-content: space-between;
-    flex: 1 7;
 }
 .Navbar-brand {
     height: 75px;
@@ -52,4 +51,18 @@
 }
 .nav-link-logout:hover {
     color: #d22020;
+}
+
+@media (max-width: 450px) {
+    .Navbar {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+    .Navbar-brand {
+        width: 80px;
+    }
+    .nav-item {
+        font-size: .975rem !important;
+        margin-left: 20px;
+    }
 }

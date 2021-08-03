@@ -3,8 +3,7 @@ import "./Sidebar.css";
 
 import Account from './account.svg';
 
-const Sidebar = ({ csvFile }) => {
-    console.log(csvFile);
+const Sidebar = () => {
     return (
         <div className="Sidebar">
             <ul className="Sidebar-nav">

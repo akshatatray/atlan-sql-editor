@@ -46,3 +46,15 @@
     font-weight: bold;
     color: #d22020;
 }
+
+@media (max-width: 450px) {
+    .Editor-Body {
+        flex: 2;
+    }
+    .Editor-IDE {
+        flex: 5;
+    }
+    .Editor-Body-Para {
+        width: calc(100% - 40px);
+    }
+}

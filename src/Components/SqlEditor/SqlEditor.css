@@ -6,8 +6,18 @@
 }
 .SqlEditor-editor, .SqlEditor-output {
   flex: 1;
-  width: 50%;
+  width: 100%;
 }
 .SqlEditor-editor {
   padding-left: 65px;
+}
+
+@media (max-width: 450px) {
+  .SqlEditor {
+    flex-direction: column;
+  }
+  .SqlEditor-editor {
+    padding-left: 0;
+    flex: 2;
+  }
 }

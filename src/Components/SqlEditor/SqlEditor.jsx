@@ -17,7 +17,7 @@ const SqlEditor = () => {
     <div className="SqlEditor">
       <div className="SqlEditor-editor">
         <Suspense fallback={<div></div>}>
-          <Sidebar csvFile={currQuery} />
+          <Sidebar/>
           <Editor getQueryOutput={processQuery} />
         </Suspense>
       </div>

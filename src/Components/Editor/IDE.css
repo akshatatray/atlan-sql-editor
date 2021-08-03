@@ -45,3 +45,12 @@
 .Editor-Actions-Btn:disabled {
     background-color: #6064EC;
 }
+
+@media (max-width: 450px) {
+    .CodeMirror-scroll {
+        max-height: 100% !important;
+        min-height: 100% !important;
+        position: absolute;
+        bottom: 0;
+    }
+}
