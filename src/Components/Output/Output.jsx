@@ -9,10 +9,10 @@ import Doc from './doc.svg';
 
 const Output = ({ displayQuery }) => {
     switch (displayQuery) {
-        case "" : return (
+        case "": return (
             <div className="Output" style={{ backgroundColor: "#F5F5F5" }}>
                 <div className="Output-doc">
-                    <img src={Doc} alt="doc"/>
+                    <img src={Doc} alt="doc" />
                     <p>The results of your query will appear here.</p>
                 </div>
             </div>
@@ -52,9 +52,9 @@ const Output = ({ displayQuery }) => {
             </div>
         );
 
-        default : return (
+        default: return (
             <div className="Output" style={{ backgroundColor: "#F5F5F5" }}>
-                <div className="Output-doc" style={{color: "#d22020"}}>
+                <div className="Output-doc" style={{ color: "#d22020" }}>
                     Please Use the Mock Queries!
                 </div>
             </div>

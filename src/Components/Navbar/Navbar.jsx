@@ -21,10 +21,10 @@ const Navbar = () => {
                         <NavLink activeClassName="active-nav-link" className="nav-link" to="/sql" exact>New Editor</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a 
-                            className="nav-link nav-link-logout" 
-                            href="https://github.com/akshatatray/atlan-sql-editor" 
-                            target="_blank" 
+                        <a
+                            className="nav-link nav-link-logout"
+                            href="https://github.com/akshatatray/atlan-sql-editor"
+                            target="_blank"
                             rel="noreferrer"
                         >
                             GitHub
