@@ -18,7 +18,7 @@ const SqlEditor = () => {
     <div className="SqlEditor">
       <Navbar/>
       <div className="SqlEditor-editor">
-        <Sidebar/>
+        <Sidebar csvFile={currQuery}/>
         <Editor getQueryOutput={processQuery}/>
       </div>
       <div className="SqlEditor-output">

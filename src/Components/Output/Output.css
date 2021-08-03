@@ -24,7 +24,7 @@ table {
 table td, table th {
     border: 1px solid #ddd;
     text-transform: capitalize;
-    padding: 8px;
+    padding: 2px 5px;
 }
 
 table tr:nth-child(even) {
@@ -36,9 +36,9 @@ table tr:hover {
 }
 
 table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    text-align: center;
     background-color: #6064ec;
     color: white;
 }

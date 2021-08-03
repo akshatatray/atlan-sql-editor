@@ -26,10 +26,6 @@
     margin: 0 20px 0 0;
     cursor: pointer;
 }
-.Share-Btn {
-    background-color: #6064EC;
-}
-
 .CodeMirror-linenumbers {
     width: 40px;
     background-color: white;
@@ -41,4 +37,11 @@
 .CodeMirror-gutters {
     background-color: transparent;
     border: none !important;
+}
+.Editor-Actions-Btn a {
+    text-decoration: none;
+    color: white;
+}
+.Editor-Actions-Btn:disabled {
+    background-color: #6064EC;
 }
