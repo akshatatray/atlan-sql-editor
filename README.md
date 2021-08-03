@@ -2,14 +2,6 @@
 
 ### [Visit the Web-App](https://atlansql.web.app/)
 
-| Home Page: | Editor: |
-| ---------- | ------- |
-| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Home.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Editor.png" /> |
-
-| Query Execution: | Performance (Lighthouse): |
-| ---------------- | ------------------------- |
-| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/EditorQuery.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Performance.png" /> |
-
 ### Mock Queries:
 + ```SELECT * FROM Atlan;```
 + ```SELECT * FROM Atlan WHERE city='London';```
@@ -21,3 +13,20 @@
 - By using small size assets' files, such as *`.SVGs instead of .PNGs`*, etc
 - By minimizing the 3rd-Party Packages.
 - By implementing *`custom CSS`* instead of Styling Libraries.
+
+| Home Page: | Editor: | Query Execution: |
+| ---------- | ------- | ---------------- |
+| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Home.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Editor.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/EditorQuery.png" /> |
+
+| Performance (Lighthouse): |
+| ------------------------- |
+| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/Performance.png" /> |
+
+
+| Mobile Home Page: | Mobile Editor: | Mobile Query Execution: |
+| ----------------- | -------------- | ----------------------- |
+| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/PhoneHome.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/PhoneEditor.png" /> | <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/PhoneEditorQuery.png" /> |
+
+| Mobile Performance (Lighthouse): |
+| -------------------------------- |
+| <img src="https://github.com/akshatatray/atlan-sql-editor/blob/main/screenshots/PhonePerformance.png" /> |
