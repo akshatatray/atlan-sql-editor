@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import "./Editor.css";
 
-import IDE from './IDE';
+const IDE = React.lazy(() => import('./IDE'));
 
 const Editor = ({ getQueryOutput }) => {
 
@@ -22,7 +22,9 @@ const Editor = ({ getQueryOutput }) => {
                 </p>
             </div>
             <div className="Editor-IDE">
-                <IDE onQueryRun={runQuery}/>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <IDE onQueryRun={runQuery}/>
+                </Suspense>
             </div>
         </div>
     )

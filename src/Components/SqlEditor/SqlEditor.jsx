@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import './SqlEditor.css';
 
-import Navbar from '../Navbar/Navbar';
-import Sidebar from '../Sidebar/Sidebar';
-import Editor from '../Editor/Editor';
-import Output from '../Output/Output';
+import Navbar from "../Navbar/Navbar";
+const Sidebar = React.lazy(() => import('../Sidebar/Sidebar'));
+const Editor = React.lazy(() => import('../Editor/Editor'));
+const Output = React.lazy(() => import('../Output/Output'));
 
 const SqlEditor = () => {
   const [currQuery, setCurrQuery] = useState("");
@@ -18,11 +18,15 @@ const SqlEditor = () => {
     <div className="SqlEditor">
       <Navbar/>
       <div className="SqlEditor-editor">
-        <Sidebar csvFile={currQuery}/>
-        <Editor getQueryOutput={processQuery}/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Sidebar csvFile={currQuery}/>
+          <Editor getQueryOutput={processQuery}/>
+        </Suspense>
       </div>
       <div className="SqlEditor-output">
-        <Output displayQuery={currQuery}/>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Output displayQuery={currQuery}/>
+        </Suspense>
       </div>
     </div>
   );
